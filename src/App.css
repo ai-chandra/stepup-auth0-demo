@@ -1,0 +1,67 @@
+.shell {
+  max-width: 640px;
+  margin: 0 auto;
+  padding: 48px 24px;
+  text-align: center;
+}
+
+.topbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 24px;
+  font-size: 14px;
+  color: var(--text);
+}
+
+.card {
+  border: 1px solid var(--border);
+  border-radius: 8px;
+  padding: 24px;
+  margin-top: 24px;
+  text-align: left;
+}
+
+.card.protected {
+  border-color: var(--accent-border);
+  background: var(--accent-bg);
+}
+
+.message {
+  margin-top: 16px;
+  font-size: 14px;
+}
+
+button {
+  font-family: inherit;
+  font-size: 15px;
+  padding: 8px 16px;
+  border-radius: 6px;
+  border: 2px solid transparent;
+  background: var(--accent-bg);
+  color: var(--accent);
+  cursor: pointer;
+  transition: border-color 0.3s;
+}
+
+button:hover {
+  border-color: var(--accent-border);
+}
+
+button:disabled {
+  opacity: 0.6;
+  cursor: default;
+}
+
+details {
+  margin-top: 16px;
+}
+
+pre {
+  font-family: var(--mono);
+  font-size: 13px;
+  background: var(--code-bg);
+  padding: 12px;
+  border-radius: 6px;
+  overflow-x: auto;
+}
