@@ -9,7 +9,7 @@ Reference: [Auth0 — Configure Step-Up Authentication for Web Apps](https://aut
 Create a `.env` file in the project root (this file is gitignored and must never be committed):
 
 ```
-VITE_AUTH0_DOMAIN=jaggerybyt-ciam.cic-demo-platform.auth0app.com
+VITE_AUTH0_DOMAIN=auth.jaggerybyt.com
 VITE_AUTH0_CLIENT_ID=OHBXAthSLNZAWLGwceqPJaEpI8FI5yCW
 ```
 
